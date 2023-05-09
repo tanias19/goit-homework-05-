@@ -17,31 +17,34 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container header-container">
-            <!-- Header-->
-            <nav class="nav">
-                <a class="logo link menu-item" href="./index.html">Web<span class="web-logo">Studio</span></a>
-                <ul class="menu list">
-                    <li class="menu-item">
-                        <a class="menu-link link" href="./index.html"> Studio </a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link link active" href="./portfolio.html"> Portfolio </a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href=""> Contacts </a>
-                    </li>
-                </ul>
-            </nav>
-            <address class="address">
-                <ul class="list list-contact">
-                    <li><a class="address-list email  link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="address-list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
-        </div>
-    </header>
+<header class="header" data-header>
+    <div class="container header-container">
+        <!-- Header-->
+        <nav class="nav">
+            <a class="logo link menu-item " href="./index.html">Web<span class="web-logo">Studio</span></a>
+            <ul class="menu list">
+                <li class="menu-item">
+                    <a class="menu-link link active" href="./index.html"> Studio </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link link" href="./portfolio.html"> Portfolio </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link link" href=""> Contacts </a>
+                </li>
+            </ul>
+        </nav>
+
+        <address class="address">
+            <ul class="list list-contact">
+                <li><a class="address-list link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li><a class="address-list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+    </div>
+</header>
+
 
     <main>
         <section class="button-list content">
@@ -71,14 +74,12 @@
                             <div class="app-thumb">
                             <img src="./images/secondpage/appinterface.jpg" alt="app-interface" width="360"
                                 height="300">
-                            <div class="overlay">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                     Tracker App · Exotic Fruit Ecommerce App ·
                                     Cloud Storage App
                                 </p>
                             </div>
-                        </div>
                             <div class="app-list">
                                 <h2 class="bar-name">Banking App Interface Concept</h2>
                                 <p class="bar-info">App</p>
@@ -89,13 +90,11 @@
                         <a href="" class="link portfolio-link">
                             <div class="app-thumb">
                             <img src="./images/secondpage/cashless.jpg" alt="cashless" width="360" height="300">
-                            <div class="overlay">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                     Tracker App · Exotic Fruit Ecommerce App ·
                                     Cloud Storage App
                                 </p>
-                            </div>
                             </div>
                             <div class="app-list">
                                 <h2 class="bar-name">Cashless Payment</h2>
@@ -283,6 +282,8 @@
             </div>
         </div>
     </footer>
+        <script src="./js/header.js"></script>
+        <script src="./js/modal.js"></script>
 </body>
 
 </html>
